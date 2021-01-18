@@ -1,0 +1,549 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* google font link here */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* 
+
+font-family: 'Open Sans', sans-serif;
+
+font-family: 'Raleway', sans-serif;
+
+*/
+
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none ;
+}
+/* heade+banner+background image start here */
+.header-banner{
+    width: 100%;
+    background: url(../img/bg-img.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.55);
+    border-color: rgba(255,255,255,.1);
+}
+/* header menu dtart here*/
+.header{
+    background-color: black;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.nav-link{
+    color:  #848484 !important;
+    font-size: 14 px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 30px !important;
+
+}
+.nav-link:hover{
+    color:  #fff !important;
+}
+
+/* banner part start here */
+.banner-text{
+    height: 92vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* <!-- left side start here --> */
+
+.banner-text h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px ;
+    font-weight: 400 ;
+    color: #FFFFFF;
+    margin: 24px 0px;
+    width: 75%;
+}
+
+
+.banner-text .line{
+    height: 3px;
+    width: 75px;
+    background-color: #FFF;
+
+}
+
+.banner-text p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px ;
+    font-weight: 300 ;
+    color: #B2B2B1;
+    margin: 26px 0px;
+    width: 75%;
+}
+.banner-text p:hover{
+    color: white;
+    font-weight: 400 ;
+}
+
+.banner-text button{
+    border-radius: 5px;
+    padding: 10px 35px;
+    background: transparent;
+    border: 2px solid #F5F5F5 ;
+}
+.banner-text button:focus{
+    outline: none;
+
+}
+.banner-text button a{
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF; 
+}
+
+
+.banner-text button:hover{
+    border: 2px solid #FF8B38 ;
+    background-color: #FF8B38;
+    color: black; 
+}
+
+.banner-text button:focus{
+    outline: none;
+}
+
+/* right side start here */
+
+.banner-form{
+    height: 92vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.card{
+    line-height: 46px;
+    border: none !important ;
+    margin-right: 10px;
+
+}
+.banner-form .card-header{
+    background-color: #F5F5F5;
+}
+.banner-form .card-header h2{
+    text-align: center;
+    padding: 18px 18px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color:#333333 ;
+}
+
+.banner-form .card-header span{
+    color:#FF8B38;
+}
+.banner-form .card-body{
+    margin: 0px 15px 0px 5px;
+    background-color: #FFFFFF;
+}
+
+.banner-form .card-body input{
+
+    color: black;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #D6D6D6;
+}
+.banner-form .card-body input:focus{
+    outline: none;
+}
+.banner-form .card-body input::placeholder{
+    color: #BDBDBD;
+}
+.banner-form .card-body input[type=text] {
+    margin: 25px 0px 12px 15px;
+}
+.banner-form .card-body input[type=email] {
+    margin: 10px 0px 12px 15px;
+}
+.banner-form .card-body input[type=password] {
+    margin: 10px 0px 40px 15px;
+}
+.banner-form .card-footer{
+    padding: 15px 0px;
+    background-color: #FF9B51;
+    text-align: center;
+}
+
+.banner-form .card-footer input{
+    color: #FFFFFF ;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+}
+.banner-form .card-footer input:focus{
+    outline: none;
+}
+
+/* <!-- banner part end here --> */
+
+
+/* social media start here */
+
+.social-media{
+    background-color: #FFFFFF;
+    padding: 20px 0px;
+    /* box-shadow: 0px 10px 20px 0px #B7B7B7; */
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.SM-details h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px ;
+    font-weight: 700;
+    color: #333333;
+
+}
+.SM-details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+    width: 99%;
+}
+.SM-details p:hover{
+    color: black;
+
+}
+
+.SM-icon ul li{
+    display: inline-block;
+}
+
+.SM-icon ul li a{
+    color: #CCCCCC;
+    font-size: 48px;
+    padding-left: 65px;
+    padding-right: 5px;
+}
+
+.SM-icon ul li a:hover{
+    color: #FF9B51;
+}
+/* <!-- social media end here --> */
+
+/* service function start here */
+
+.service{
+    width: 100%;
+    background-color:#F5F5F5 ;
+    padding: 90px 0px;
+}
+
+/* <!-- tab start here --> */
+
+.service .tab-1{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.service .tab-3{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.active-color{
+    background-color: #FF8B38 !important;
+}
+.service ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #333333;
+    height: 95px;
+    margin-bottom: 4px;
+    width: 89px;
+    text-align: center;
+    line-height: 95px;
+
+}
+/* tab details start here */
+.service h2{
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    padding-top: 5px;
+
+ 
+}
+
+.service p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #949598 ;
+    padding: 24px 0px;
+    width: 85%;
+
+}
+.service p:hover{
+    color: black ;
+}
+.service button {
+    border-radius: 5px;
+    background-color: #FF8B38;
+    padding: 13px 35px;
+    border: none;
+
+}
+.service button a{
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.service button:hover{
+    border: none;
+    color: #FF8B38;
+    background-color: #333333;
+
+}
+.service button:focus{
+    outline: none;
+
+}
+
+.service  .tab-des-img{
+    padding: 18px 0px;
+
+}
+
+/*  service function end here  */
+
+
+/* Sub-list-section start here */
+.Sub-list-section{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #FFFFFF;
+}
+
+/* left side and image */
+.Sub-list-section img{
+    margin-top: 15px;
+}
+
+/* <!-- right side and description  start here--> */
+.Sub-list-section h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #212121;
+    padding-top: 10px;
+}
+
+.Sub-list-section .line{
+    height: 3px;
+    width: 75px;
+    background-color:#FF8B38;
+    margin: 25px 0px;
+}
+.Sub-list-section p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+    padding: 7px 0px;
+}
+
+.Sub-list-section p:hover{
+    color: black;
+}
+
+/*  both title start here */
+
+ol, ul {
+    padding-left: 0rem;
+}
+.Sub-list-section ul li{
+    list-style: none;
+    margin-top: 13px;
+
+
+}
+
+.Sub-list-section ul li a{
+    text-decoration: none;
+    
+
+
+}
+.Sub-list-section ul li a i{
+    color: #FF8B38;
+    border: 2px solid #FF8B38;
+    border-radius: 50%;
+    font-size: 17px;
+    padding: 13px;
+
+}
+
+
+/*  Sub-list-section end here  */
+
+
+/* Standard Picture Section start here */
+
+
+/* <!-- left side and description  start here--> */
+
+.Standard-Picture-section{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #F5F5F5;
+
+}
+.Standard-Picture-section h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #212121;
+    padding-top: 10px;
+}
+
+.Standard-Picture-section .line{
+    height: 3px;
+    width: 75px;
+    background-color:#FF8B38;
+    margin: 25px 0px;
+}
+.Standard-Picture-section p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+    padding: 7px 0px;
+}
+
+.Standard-Picture-section p:hover{
+    color: black;
+}
+
+/* right side and image */
+
+.Standard-Picture-section img{
+    margin-top: 15px;
+}
+/* Standard Picture Section end here */
+
+
+/* awesome banner start here */
+.awesome{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #FFFFFF;
+
+}
+
+.awesome .awesome-top h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #212121;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.awesome .awesome-top .line{
+    height: 3px;
+    width: 75px;
+    background-color:#FF8B38;
+    margin: 12px auto;
+    text-align: center;
+}
+.awesome .awesome-top p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+    padding: 7px 0px;
+    text-align: center;
+}
+
+.awesome .awesome-top p:hover{
+    color: black;
+}
+
+/* awesome-bottom start here */
+.awesome .awesome-bottom ul{
+    text-align: center;
+}
+.awesome .awesome-bottom ul li{
+    list-style: none;
+   
+}
+.awesome .awesome-bottom ul li a{
+    text-decoration: none;
+   
+}
+.awesome .awesome-bottom ul li a i{
+    height: 70px;
+    width: 70px;
+    line-height: 65px;
+    color: #FF8B38;
+    border-radius: 50%;
+    border: 2px solid #FF8B38;
+    font-size: 32px;
+    text-align: center;
+}
+
+.awesome .awesome-bottom h2{
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #212121;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.awesome .awesome-bottom p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+    padding: 7px 0px;
+    text-align: center;
+}
+
+.awesome .awesome-bottom p:hover{
+    color: black;
+}
+
+.box-padding{
+    padding: 0px 25px;
+}
+/* awesome banner end here */
