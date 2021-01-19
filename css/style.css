@@ -235,8 +235,8 @@ a{
 
 }
 
-.SM-icon ul li{
-    display: inline-block;
+.SM-icon ul{
+    display: flex;
 }
 
 .SM-icon ul li a{
